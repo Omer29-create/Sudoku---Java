@@ -27,7 +27,6 @@ public class LocalStorageImpl implements IStorage {
     public void updateGameData(SudokuGame game) throws IOException {
         try {
 
-
             FileOutputStream fileOutputStream =
                     new FileOutputStream(GAME_DATA);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
